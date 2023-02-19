@@ -1,0 +1,16 @@
+#img_perfil{
+    width: 40%;
+
+    /*BORDES*/
+    border-width: 2px;
+    border-color: pink;
+    border-style: solid;
+    /*border-radius: 250px; ,puede ser con % o px*/
+    border-radius: 100%;
+    /* SE PUEDE INCLUIR MULTIPLES ESTILOS
+    border-style:solid,dashed,dotted,double,groove,ridge,inset,outset;*/
+
+    /*MARGEN*/
+
+    margin:15px;
+}
