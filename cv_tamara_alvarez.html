@@ -16,64 +16,188 @@
     </nav>
 
     <div>
-      
+      <h1>CURRICULUM VITAE</h1>
       <div class="container">
         <div class="row">
-          <div class="col-1 col-md-5">
+          
+          <div id="panel_izq" class="col-1 col-md-5">
 
+            <!-- <img id="img_panel" src="/imagenes/5.png" alt="panelfondo"> -->
             <img id="img_perfil" src="/imagenes/nunu.jpg" alt="Yo">
             <p>Tamara Alvarez Hayes</p>
             <hr>
             <!-- <hr size="10%" color="black" width="100%"/> poner propiedades del hr en el css -->
   
-            <p>CONTACTO</p>
-            <p>+54-2964-5557845</p>
-            <p>tame@gmail.com</p>
-            <p>San Martin 2233</p>
-            <p>Argentina</p>
-            <p>31 Años - 01/07/1991</p>
-            <p>Licencia de conducir B1</p>
+            <h3>CONTACTO</h3>
+            <ul class="lista-contacto">
+              <li><img src="imagenes/whatsapp.png" alt="Whatsapp" class="imgcontacto"><a class="link-dark" href="https://api.whatsapp.com/send?phone=542964693647" class="link-info">Whatsapp +54-2964-693647</a></li>
+              <li><img src="imagenes/email.png" alt="Email" class="imgcontacto"> <a class="link-dark" href="mailto:tameee@gmail.com">tame@gmail.com</a></li>
+              <li><img src="imagenes/ubicacion.png" alt="Ubicacion" class="imgcontacto"> <a class="link-dark" href="https://goo.gl/maps/yEfzZFG42pjvxgXw6">San Martin 2233, Rio Grande, Tierra del Fuego</a></li>
+              <li><img src="imagenes/argentina.png" alt="Bandera Argentina" class="imgcontacto"> Argentina</li>
+              <li><img src="imagenes/usuario.png" alt="User" class="imgcontacto"> 31 Años - 01/07/1991</li>
+              <li><img src="imagenes/coche.png" alt="Auto" class="imgcontacto"> Licencia de conducir B1</li>
+            </ul>
+            
             <hr>
   
-            <p>REDES</p>
-            <p>Instagram</p>
-            <p>Linked-in</p>
-            <p>Twitter</p>
-            <p>Facebook</p>
-            <p>Github</p>
-             <hr>
+            <h3>REDES</h3>
+            <ul class="lista-redes">
+              <li><img src="imagenes/logoigrosita.png" alt="Instagram" class="imgredes"><a class="link-info" href="http://www.instagram.com/queenmaggot_" target="_blank" rel="noopener noreferrer"> Instagram</a></li>
+              <li><img src="imagenes/linkedin.png" alt="Linkedin" class="imgredes"><a class="link-info" href="https://www.linkedin.com/in/tamara-ah23/" target="_blank" rel="noopener noreferrer"> Linkedin</a></li>
+              <li><img src="imagenes/twitterrosa.png" alt="Twitter" class="imgredes"><a class="link-info" href="http://www.twitter.com/queenmaggot" target="_blank" rel="noopener noreferrer"> Twitter</a></li>
+              <li><img src="imagenes/facebook.png" alt="Facebook" class="imgredes"><a class="link-info" href="http://www.facebook.com/Lady.tame" target="_blank" rel="noopener noreferrer"> Facebook</a></li>
+              <li><img src="imagenes/github.png" alt="Github" class="imgredes"><a class="link-info" href="https://github.com/QueenMaggot" target="_blank" rel="noopener noreferrer"> Github</a></li>
+            </ul>
+            <hr>
   
-            <p>IDIOMAS</p>
-            <p>Español Nativo</p>
-            <p>Ingles Experto</p>
+            <h3>IDIOMAS</h3>
+            <ul class="lista-idiomas">
+              <li><img src="imagenes/idiomas.png" alt="Idiomas" class="imgredes"> Español Nativo</li>
+              <li><img src="imagenes/idiomas.png" alt="Idiomas" class="imgredes"> Inglés Experto</li>
+            </ul>
+
+            <h3>INTERESES</h3>
+            <ul class="lista-intereses">
+              <li><img src="imagenes/pastel.png" alt="Pastelería" class="imgintereses"> Pastelería</li>
+              <li><img src="imagenes/musica.png" alt="Musica" class="imgintereses"> Música</li>
+              <li><img src="imagenes/juegos.png" alt="Videojuegos" class="imgintereses"> Videojuegos</li>
+            </ul>
 
             
           </div>
           <div class="col-2 col-md-7">
-            <hr>
-            <p>SOBRE MÍ</p>
+           <hr>
+           <h2>SOBRE MÍ</h2>
             <p>Soy una persona muy blabla Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum assumenda asperiores odit ducimus provident ipsa iure enim quasi exercitationem officia doloribus quo, libero illo quidem hic aspernatur consequuntur! Recusandae, id?
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quis consequuntur necessitatibus culpa similique! Possimus repellat inventore exercitationem nostrum quo. Modi animi nesciunt placeat cum doloribus voluptatibus vitae ex veritatis.
             </p>
            <hr>
-           <p>EXPERIENCIA PROFESIONAL</p>
-           <p>2010-2011 Empleada en multirubro Martin. Puestos: Venta de productos y alquiler de peliculas.</p>
-           <p>2013-2015 Empleada en Brightstar Fueguina S.A, Fabrica metalurgica de celulares. Puestos: Pre-ensamble, Ensamble, Testeos y Embalaje.</p>
-           <p>2019-2022 Emprendimiento propio de Pasteleria. Elaboración y venta de productos de pasteleria, tortas personalizadas, alfajores, mesas dulces, etc.</p>
+           <h2>EXPERIENCIA PROFESIONAL</h2>
+           <div class="accordion accordion-flush" id="accordion_exp_prof">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  2010-2011 Empleada en multirubro Martin.
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordion_exp_prof">
+                <div class="accordion-body">Atención al público venta de articulos en gral y alquiler de peliculas</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  2013-2015 Operaría en Brightstar Fueguina S.A.
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordion_exp_prof">
+                <div class="accordion-body">Pre-ensamble, ensamble, testeos y embalaje de celulares y tablets</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  2019-2022 Emprendimiento propio de Pastelería.
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordion_exp_prof">
+                <div class="accordion-body">Elaboración y venta de productos de pastelería, tortas personalizadas, alfajores, mesas dulces, etc.</div>
+              </div>
+            </div>
+          </div>
+           
            <hr>
-           <p>EDUCACIÓN</p>
-           <p>1998-2007 Idioma Ingles, C.E.P (Centro de Estudios Programados)</p>
-           <p>2003-2008 Eduación secundaria, Colegio Provincial Alicia Moreau de Justo. Título: Administración y gestión de las organizaciones</p>
-           <p>2008-2015 Educación terciaria, Cent 35. Título: Tecnicatura Superior en Analisis de Sistemas</p>
+           <h2>EDUCACIÓN</h2>
+           <div class="accordion accordion-flush" id="accordion_educacion">
+            <div class="accordion-item">
+              <h2 class="accordion-header" >
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-uno" aria-expanded="false" aria-controls="flush-uno">
+                  1998-2007 Idioma Inglés, C.E.P (Centro de Estudios Programados).
+                </button>
+              </h2>
+              <div id="flush-uno" class="accordion-collapse collapse" aria-labelledby="flush-uno" data-bs-parent="#accordion_educacion">
+                <div class="accordion-body">Título obtenido: Lengua Inglés Avanzado</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-dos" aria-expanded="false" aria-controls="flush-dos">
+                  2003-2008 Eduación secundaria, Colegio Provincial Alicia Moreau de Justo.
+                </button>
+              </h2>
+              <div id="flush-dos" class="accordion-collapse collapse" aria-labelledby="flush-dos" data-bs-parent="#accordion_educacion">
+                <div class="accordion-body">Título obtenido: Administración y gestión de las organizaciones</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" >
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-tres" aria-expanded="false" aria-controls="flush-tres">
+                  2008-2015 Educación terciaria, Cent 35.
+                </button>
+              </h2>
+              <div id="flush-tres" class="accordion-collapse collapse" aria-labelledby="flush-tres" data-bs-parent="#accordion_educacion">
+                <div class="accordion-body">Título obtenido: Tecnicatura Superior en Análisis de Sistemas.</div>
+              </div>
+            </div>
+          </div>
+
            <hr>
-           <p>CURSOS</p>
-           <p>2016 Pasteleria y reposteria, Curso presencial dictado por el Municipio de Rio Grande</p>
-           <p>2016 Pasteleria y resposteria avanzada, Curso presencial dictado por el Municipio de Rio Grande</p>
-           <p>2017 Curso de decoración de tortas, Curso presencial dictado por el Municipio de Rio Grande</p>
-           <p>2021 Curso de programación basica "Sé programar", Plataforma: Argentina Programa</p>
-           <p>2022 Curso de Javascript, Plataforma: Coderhouse</p>
+           <h2>CURSOS</h2>
+           <div class="accordion accordion-flush" id="accordion_cursos">
+            <div class="accordion-item">
+              <h2 class="accordion-header" >
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-cuatro" aria-expanded="false" aria-controls="flush-cuatro">
+                  2016 Pastelería y repostería
+                </button>
+              </h2>
+              <div id="flush-cuatro" class="accordion-collapse collapse" aria-labelledby="flush-cuatro" data-bs-parent="#accordion_cursos">
+                <div class="accordion-body">Curso presencial con duración de 3 meses dictado por el Municipio de Río Grande.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" >
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-cinco" aria-expanded="false" aria-controls="flush-cinco">
+                  2016 Pastelería y respostería avanzada
+                </button>
+              </h2>
+              <div id="flush-cinco" class="accordion-collapse collapse" aria-labelledby="flush-cinco" data-bs-parent="#accordion_cursos">
+                <div class="accordion-body">Curso presencial con duración de 3 meses dictado por el Municipio de Río Grande.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" >
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-seis" aria-expanded="false" aria-controls="flush-seis">
+                  2017 Curso de decoración de tortas
+                </button>
+              </h2>
+              <div id="flush-seis" class="accordion-collapse collapse" aria-labelledby="flush-seis" data-bs-parent="#accordion_cursos">
+                <div class="accordion-body">Curso presencial con duración de 3 meses dictado por el Municipio de Río Grande.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" >
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-siete" aria-expanded="false" aria-controls="flush-siete">
+                  2021 Curso de programación básica
+                </button>
+              </h2>
+              <div id="flush-siete" class="accordion-collapse collapse" aria-labelledby="flush-siete" data-bs-parent="#accordion_cursos">
+                <div class="accordion-body">Curso online "Sé programar" dictado por la plataforma Argentina Programa</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" >
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-ocho" aria-expanded="false" aria-controls="flush-ocho">
+                  2022 Curso de Javascript
+                </button>
+              </h2>
+              <div id="flush-ocho" class="accordion-collapse collapse" aria-labelledby="flush-ocho" data-bs-parent="#accordion_cursos">
+                <div class="accordion-body">Curso online con duración de 2 meses dictado por la plataforma de Coderhouse</div>
+              </div>
+            </div>
+          </div>
+
            <hr>
-           <p>HABILIDADES</p>
+           <h2>HABILIDADES</h2>
            
            <div class="container">
             <div class="row">
@@ -128,6 +252,6 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-
+    <script src="cv_tamara_alvarez.js"></script>
 </body>
 </html>
