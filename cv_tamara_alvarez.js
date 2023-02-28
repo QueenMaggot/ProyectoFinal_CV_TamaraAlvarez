@@ -10,7 +10,7 @@ function cambiarfoto(e){
         }
         else {
           
-            fotito.src="./imagenes/nunu.jpg"
+            fotito.src="./imagenes/nunu.png"
         }
     }
         elementocheckbox.addEventListener('change', cambiarfoto);
