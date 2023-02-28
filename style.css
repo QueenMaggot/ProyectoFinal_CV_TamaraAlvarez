@@ -74,12 +74,6 @@ hr {
     width: auto;
 }
 
-.p_me {
-    animation-duration: 10s;
-    animation-name: slidein;
-    animation-iteration-count: infinite;
-
-}
 
 footer {
     font-size: small;
