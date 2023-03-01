@@ -8,11 +8,11 @@ let elementocheckbox = document.querySelector('#switch input[type="checkbox"]');
 function cambiarfoto(e){
     if(e.target.checked){
 
-        fotito.src="../imagenes/yuu.PNG"
+        fotito.src="https://github.com/QueenMaggot/ProyectoFinal_CV_TamaraAlvarez/tree/master/imagenes/yuu.PNG"
         }
         else {
           
-            fotito.src="../imagenes/nunu.PNG"
+            fotito.src="https://github.com/QueenMaggot/ProyectoFinal_CV_TamaraAlvarez/tree/master/imagenes/nunu.PNG"
         }
     }
         elementocheckbox.addEventListener('change', cambiarfoto);
